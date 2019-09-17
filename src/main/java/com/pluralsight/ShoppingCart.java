@@ -37,6 +37,7 @@ public class ShoppingCart {
    } catch (IndexOutOfBoundsException e) {
      e.printStackTrace();
    }
+   //test
  }
 
  public CartItem getCartItem(int iItemIndex) {
