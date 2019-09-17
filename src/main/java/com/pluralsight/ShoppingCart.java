@@ -45,7 +45,7 @@ public class ShoppingCart {
    cartItem = cartItems.get(iItemIndex);
   }
   return cartItem;
- }
+}
 
  public ArrayList<CartItem> getCartItems() {
   return cartItems;
