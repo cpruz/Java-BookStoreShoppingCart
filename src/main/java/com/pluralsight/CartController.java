@@ -71,7 +71,7 @@ public class CartController extends HttpServlet {
 		}
 
 	private void updateCart(HttpServletRequest request, HttpServletResponse response)
-		throws ServletException, IOException{
+		throws ServletException, IOException {
 			HttpSession session = request.getSession();
 			int index = Integer.parseInt(request.getParameter("index"));
 			int quantity = Integer.parseInt(request.getParameter("quantity"));
